@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/ic_menu_mapmode"
+            android:layout_centerInParent="true"
+            android:id="@+id/result"
+            android:contentDescription="@string/app_name" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_down"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/save"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="57dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/save"
+            android:contentDescription="@string/app_name"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/weichat"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="56dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/buttonWeichat"
+            android:contentDescription="@string/app_name"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/qq"
+            android:id="@+id/buttonQQ"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
